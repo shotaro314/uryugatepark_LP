@@ -7,3 +7,29 @@
         </tile>
     </msapplication>
 </browserconfig>
+<works>
+    <item>
+        
+        <status>Sale</status>
+        <link>#</link>
+        <name>test1</name>
+    </item>
+    <item>
+        
+        <status>sold out</status>
+        <link>#</link>
+        <name>test2</name>
+    </item>
+    <item>
+        
+        <status>Sale</status>
+        <link>#</link>
+        <name>test3</name>
+    </item>
+    <item>
+        
+        <status>sold out</status>
+        <link>#</link>
+        <name>test4</name>
+    </item>
+</works>

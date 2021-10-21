@@ -1,6 +1,6 @@
 $(function() {
 	$.ajax({
-		url: '../worksconfig.xml',
+		url: '../browserconfig.xml',
 		dataType: 'xml',
 		success: function(data) {
 
