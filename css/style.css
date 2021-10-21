@@ -1,0 +1,11 @@
+/*
+color: var(--main-color);
+*/
+
+:root {
+    --main-color: #0f0;
+    --base-color: #765434;
+    --accent-color: #526713;
+    --sub-color: #084891;
+}
+

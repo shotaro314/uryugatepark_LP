@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         
         { //chrome debagger設定
             "type": "chrome",
