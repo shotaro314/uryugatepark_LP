@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- responsible -->
     <!-- Favicon setting -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -12,17 +12,154 @@
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#ffffff">
     <!-- favicon setting end -->
-    <meta name="robots" content="noindex,nofollow">
+    <meta name="robots" content="noindex,nofollow"><!--　クローラー対策　-->
     <title>瓜生芸〜とパークLP</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <!-- <meta name="description" content="" /> -->
+    <!-- <meta name="keywords" content="" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
     <!-- <script src="js/jquery-3.1.0.min.js"></script> -->
-    <script src="js/jquery.js"></script>
+    <!-- <script src="js/jquery.js"></script> -->
+    <!-- <script src="js/script.js"></script> -->
 </head>
 <body>
-    <ul class="linkbox-news"></ul>
+  <header>
+      <div class="wrapper">
+          <a class="logo" href="#hero">瓜生芸〜とパーク</a>
+          <nav>
+              <button class="btn-menu">=</button>
+              <ul class="main-nav">
+                  <li><a href="#news">News</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#event">Event</a></li>
+                  <li><a href="#">Works</a></li>
 
-    <script src="js/works.js" charset="utf-8"></script>
+              </ul>
+          </nav>
+      </div>
+  </header>
 
+  <section id="hero">
+      <div class="wrapper">
+          <!-- <h1>WCB Conference</h1> -->
+          <!-- <p class="hero-date">2021. 11. 7. 14:00 - 16:00</p> -->
+          <div class="box">
+            <div class="bgImg src1"></div>
+            <div class="bgImg src2"></div>
+            <div class="bgImg src3"></div>
+            <div class="bgImg src4"></div>
+            <div class="boxString">
+              比叡山の麓の瓜生山にある京都芸術大学</br>
+              そこでは日々習作、作品が生み出されています。
+              中には日の目を浴びずに消えていく素晴らしい習作、作品たちがいる現状</br>
+              私たちはそんな作品を世の中の人に
+              見てもらう知ってもらう買ってもらうそんな場所作りをしています。
+            </div>
+          </div>
+          <!-- <h3>
+            比叡山の麓の瓜生山にある京都芸術大学
+            そこでは日々習作、作品が生み出されています。
+            中には日の目を浴びずに消えていく素晴らしい習作、作品たちがいる現状
+            私たちはそんな作品を世の中の人に
+            見てもらう知ってもらう買ってもらうそんな場所作りをしています。            
+          </h3> -->
+      </div>
+  </section>
+
+  <section id="news">
+      <h2>News</h2>
+      <div class="wrapper">
+          <table class="news-table">
+              <tr>
+                  <td class="news-date">2021年12月11~12日</td>
+                  <td class="news-content">第三回「うりゅーマーケット」開催</td>
+              </tr>
+              <tr>
+                  <td class="news-date">2021年11月26~27日</td>
+                  <td class="news-content">第二回「うりゅーマーケット」開催</td>
+              </tr>
+              <tr>
+                  <td class="news-date">2021年10月1~2日</td>
+                  <td class="news-content">第一回「うりゅーマーケット」開催</td>
+              </tr>
+              <tr>
+                  <td class="news-date">2021年4月22日</td>
+                  <td class="news-content">学内の有志により、『瓜生芸〜とパーク』発足</td>
+              </tr>
+          </table>
+      </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class=wrapper>
+      <div class="contact-list">
+        <div class="contact-text">
+          <!-- <h3>Mana</h3>
+          <p>
+            日本で2年間グラフィックデザイナーとして働いた後、カナダ・バンクーバーにあるWeb制作の学校を卒業。
+            カナダやオーストラリア、イギリスの企業でWebデザイナーとして働きました。
+            現在はWebサイト制作のインストラクターとして教育関連を頑張ってます。
+          </p>
+        </div>
+        <img src="images/mana.jpg" alt="Mana">
+      </div>
+      <div class="contact-list">
+        <div class="contact-text">
+          <h3>Tatsuya</h3>
+          <p>
+            株式会社Sample Web代表。学生時代より独学でWebサイト制作を学び、
+            デザイナーの働きやすい環境を求めて独立。
+            音楽・アート関連のWebサイト制作やアプリ制作をはじめ、イベントの主催や登壇なども行っています。
+          </p>
+        </div>
+        <img src="images/tatsuya.jpg" alt="Tatsuya"> -->
+      </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="footer wrapper">
+      <p>
+        <a href="mailto:uryugatepark.contact@gmail.com">お問い合わせ</a> / <small>&copy; 2021 UryuGatePark</small>
+      </p>
+    </div>
+
+  </section>
+
+  <!-- <section id="event">
+    <h2>Event</h2>
+    <table class="news-table">
+      <tr>
+        <td class="news-date">2021年12月11~12日</td>
+        <td class="news-content">第三回「うりゅーマーケット」開催</td>
+      </tr>
+      <tr>
+        <td class="news-date">2021年11月26~27日</td>
+        <td class="news-content">第二回「うりゅーマーケット」開催</td>
+      </tr>
+      <tr>
+        <td class="news-date">2021年10月1~2日</td>
+        <td class="news-content">第一回「うりゅーマーケット」開催</td>
+      </tr>
+      <tr>
+        <td class="news-date">2021年4月22日</td>
+        <td class="news-content">学内の有志により、『瓜生芸〜とパーク』発足</td>
+      </tr>
+    </table>
+  
+    <div class="footer wrapper">
+      <p>
+        <a href="mailto:uryugatepark.contact@gmail.com">お問い合わせ</a> / <small>&copy; 2021 UryuGatePark</small>
+      </p>
+    </div>
+
+  </section> -->
+
+<!-- JavaScript -->
+  <script src="js/script.js"></script>
 </body>
 </html>
